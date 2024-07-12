@@ -1,0 +1,8 @@
+---
+- name : hello this is my first ansible file
+  host : all 
+  task :
+  - name : install nginx
+  - apt:
+    name : nginx
+    state : present 
